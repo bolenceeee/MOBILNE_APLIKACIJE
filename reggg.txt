@@ -1,0 +1,2 @@
+ String glavniRegex = "<broj>(?<broj>\\d+)</broj>.*<datum>(?<datum>\\d{2}\\.\\d{2}\\.\\d{4}\\.)</datum>.*<vreme>(?<vreme>\\d{2}:\\d{2})</vreme>.*<uplaceno>(?<uplaceno>\\d+)</uplaceno>";
+				 Pattern pDetalji = Pattern.compile("<proizvod>(.*?)</proizvod>.*?<kolicina>(?<kol>\\d+(?:\\.\\d+)?)</kolicina>.*?<cena>(?<cen>\\d+(?:\\.\\d+)?)</cena>.*?<stopa>(?<stop>.*?)</stopa>", Pattern.DOTALL);

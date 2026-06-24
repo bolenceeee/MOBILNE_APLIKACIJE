@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,33 +9,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lokacija"
-        android:textSize="18sp"
-        android:padding="10dp"/>
+        android:textSize="18sp"/>
 
-    <ImageButton
-        android:id="@+id/btnCamera"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:src="@android:drawable/ic_menu_camera"
-        android:contentDescription="camera"/>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:scaleType="centerCrop"
-        android:layout_marginTop="10dp"/>
-
-    <Switch
-        android:id="@+id/switchData"
+    <TextView
+        android:id="@+id/tvProximity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Switch"/>
+        android:text="Proximity"
+        android:textSize="18sp"/>
 
     <Button
-        android:id="@+id/btnAction"
+        android:id="@+id/btnRecord"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sensor values"/>
+        android:text="Snimi"/>
+
+    <CheckBox
+        android:id="@+id/cbStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop snimanje"/>
+
+    <CheckBox
+        android:id="@+id/cbCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ucitaj države"/>
 
 </LinearLayout>
